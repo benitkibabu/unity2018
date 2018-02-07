@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\DriveScript.cs" />
+     <Compile Include="Assets\FlashLight.cs" />
      <Compile Include="Assets\Gaia\Scripts\Attributes\PreviewTextureAttribute.cs" />
      <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\AQUASWaterSet.cs" />
      <Compile Include="Assets\Gaia\Scripts\ExtensionSystem\Compatible\CountrySidePack.cs" />

@@ -1,8 +1,9 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\DriveScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FlashLight.cs">
     <Files>
-      <File FileName="Assets\DriveScript.cs" Line="24" Column="3" />
+      <File FileName="Assets\DriveScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\FlashLight.cs" Line="15" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
