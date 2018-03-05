@@ -1,0 +1,23 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=3273 outsize=593 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8981 outsize=8677 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=4741 outsize=17273 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=1435 outsize=5197 ok=1
+Cmd: compileComputeKernel
+  error: 1 plat 9 at (0): Buffer count exceeding default GL_MAX_SHADER_STORAGE_BUFFER_BINDINGS. Shader might not work on all hw. Consider combining separate buffers into one containing struct elements.
+  api=9 insize=2193 outsize=4961 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=3273 outsize=6733 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=8981 outsize=8529 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=2575 outsize=1329 ok=1
+Cmd: compileComputeKernel
+  api=9 insize=1707 outsize=1589 ok=1
+Cmd: compileComputeKernel
+  api=4 insize=1526 outsize=349 ok=1

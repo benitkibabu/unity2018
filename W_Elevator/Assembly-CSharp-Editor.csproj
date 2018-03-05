@@ -51,6 +51,62 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Fungus\Scripts\Editor\AssetModProcessor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BlockEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\BlockInspector.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CallEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CameraMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CharacterEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CommandEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CommandListAdaptor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\ControlAudioEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\CustomGUI.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\DialogInputEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EditorExtensions.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EditorZoomArea.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EnumFlagDrawer.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EventHandlerEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\EventWindow.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FlowchartWindow.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorPreferences.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResources.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\FungusEditorResourcesGenerated.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\HierarchyIcons.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\InvokeEventEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\InvokeMethodEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\LabelEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\LocalizationEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\MenuEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\MenuTimerEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\NarrativeMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\PortraitEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SaveDataEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SaveMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SavePointLoadedEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SayEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SerializedPropertyExtensions.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SetColliderEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SetVariableEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\SpriteMenuItems.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\StageEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableConditionEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\VariableListAdaptor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\ViewEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\WriteEditor.cs" />
+     <Compile Include="Assets\Fungus\Scripts\Editor\WriterAudioEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\DropDownControl.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\ExecuteHandlerEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaBindingsEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaScriptEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaStoreEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\LuaUtilsEditor.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\FungusLua\Scripts\Editor\MenuItems.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\LineEndings\Editor\LineEndingsEditMenu.cs" />
+     <Compile Include="Assets\Fungus\Thirdparty\Usfxr\Editor\SfxrGenerator.cs" />
      <Compile Include="Assets\Gaia\Scripts\Editor\AboutEditor.cs" />
      <Compile Include="Assets\Gaia\Scripts\Editor\ExportTerrain.cs" />
      <Compile Include="Assets\Gaia\Scripts\Editor\GaiaDefaultsEditor.cs" />
@@ -108,12 +164,14 @@
      <Compile Include="Assets\PostProcessing\Editor\Utils\EditorResources.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\FxStyles.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Utils\ReflectionUtils.cs" />
+     <Compile Include="Assets\RainMaker\Editor\RainMakerEditor.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_AttributeInspector.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_SkyInspector.cs" />
      <Compile Include="Assets\Time of Day\Assets\Editor\TOD_StarMesh.cs" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Editor\Trackball.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Editor\ConvertToLog.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Editor\CurveGrid.shader" />
+     <None Include="Assets\Fungus\Thirdparty\Reorderable List Field\Editor\Editor.ReorderableList.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -200,6 +258,9 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/scr3/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Editor.ReorderableList">
+ <HintPath>C:/Users/scr3/Documents/unity2018/Projects/W_Elevator/Assets/Fungus/Thirdparty/Reorderable List Field/Editor/Editor.ReorderableList.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
