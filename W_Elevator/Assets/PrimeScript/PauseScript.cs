@@ -28,7 +28,7 @@ public class PauseScript : MonoBehaviour {
 	}
 
 	void Continue(){
-		pauseMenu.SetActive (false);
+		isPaused = false;
 	}
 
 	void QuitGame(){
